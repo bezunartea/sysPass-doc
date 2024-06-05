@@ -11,9 +11,9 @@ Docker_ based installations allow to run the application in an isolated environm
 
 sysPass can be ran in `Docker containers <https://en.wikipedia.org/wiki/Docker_%28software%29>`_ which has been compiled on top of latest Debian_ stable version (Stretch) and avoiding any **package compilation**.
 
-Docker images can be got from `Docker Hub`_ and they are complied automatically from Docker source files on  https://github.com/nuxsmin/docker-syspass
+Docker images can be downloaded from `Docker Hub`_ and they are compiled automatically from Docker source files on https://github.com/nuxsmin/docker-syspass
 
-There are two ways for installing:
+There are two installation methods:
 
 * Using `Docker Compose`_ (recommended): deploys a fully working sysPass environment including application and database services.
 * Using Docker_: deploys each service (application and database) separately.
